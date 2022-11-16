@@ -15,10 +15,16 @@ export const Nav = styled.nav`
     z-index: 5;
 
     .logo {
+        text-decoration: none;
         color: #fff;
         padding-left: 50px;
         opacity: 1;
         font-size: 50px;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
     }
 
     .nav {

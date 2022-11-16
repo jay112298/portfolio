@@ -5,7 +5,7 @@ import { Nav } from './Navbar.st'
 const Navbar = (props) => {
   return (
     <Nav bg={props.bg} position={props.position}>
-      <div className="logo">JA</div>
+      <div className="logo"><Link to="/">JA</Link></div>
         <ul className='nav'>
           <li><Link to="/blog">Blog</Link></li>
           <li><Link to="/about-me">About Me</Link></li>
