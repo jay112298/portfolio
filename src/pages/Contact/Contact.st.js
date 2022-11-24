@@ -1,5 +1,28 @@
 import styled from "styled-components";
 
+export const Warning = styled.div`
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: rgba(255, 0, 0, 0.8);
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+    div {
+        border: 1px solid black;
+        padding: 5px;
+        height: 16px;
+        margin-left: 20px;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+`
 
 export const Box = styled.section`
 
