@@ -1,12 +1,16 @@
 import React from 'react'
-import { Header } from './Blog.st'
+import { Container } from './Blog.st'
+import BlogCategories from '../../components/BlogCategories/BlogCategories'
 
 const Blog = () => {
   return (
-    <Header>
-        <div className="name">blogs</div>
-    </Header>
-  )
+    <Container>
+        <section>
+            <div className="name">blogs</div>
+        </section>
+        <BlogCategories/>
+    </Container>
+      )
 }
 
 export default Blog
