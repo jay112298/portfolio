@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import blogBg from "../../assets/blog-bg.svg"
+import blogBg from "../../assets/blog-bg.png"
 
 export const Container = styled.div`
     min-height: 100vh;

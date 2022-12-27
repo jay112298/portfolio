@@ -1,12 +1,12 @@
 import React from 'react'
 import { Categories } from "./BlogCategories.st"
 
-const BlogCategories = () => {
+const BlogCategories = (props) => {
   return (
     <Categories>
-        <div className="category">All</div>
-        <div className="category">Mechanical</div>
-        <div className="category">Web Developement</div>
+        <div className="category">{props.first}</div>
+        <div className="category">{props.second}</div>
+        <div className="category">{props.third}</div>
     </Categories>
   )
 }
