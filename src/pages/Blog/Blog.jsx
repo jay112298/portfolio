@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from './Blog.st'
 import BlogCategories from '../../components/BlogCategories/BlogCategories'
+import BlogTile from '../../components/BlogTile/BlogTile'
 
 const Blog = () => {
   return (
@@ -9,6 +10,11 @@ const Blog = () => {
             <div className="name">blogs</div>
         </section>
         <BlogCategories/>
+        <div className="grid">
+          <BlogTile/>
+          <BlogTile/>
+          <BlogTile/>
+        </div>
     </Container>
       )
 }

@@ -32,4 +32,9 @@ export const Container = styled.div`
         }
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 `
