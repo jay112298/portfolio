@@ -37,4 +37,17 @@ export const Container = styled.div`
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .footer {
+        height: 70px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFBFB;
+    }
+
 `
