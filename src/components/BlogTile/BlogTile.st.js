@@ -3,7 +3,6 @@ import blogTileSvg from '../../assets/blog-tile.svg'
 
 export const Tile = styled.div`
     height: 400px;
-    width: 33.33vw;
     background: url(${blogTileSvg});
 
     background-position: center;

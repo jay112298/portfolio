@@ -3,12 +3,12 @@ import blogBg from "../../assets/blog-bg.svg"
 
 export const Container = styled.div`
     min-height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: #1A1A1A;
 
 
     section {
-        width: 100vw;
+        width: 100%;
         height: 320px;
         display: flex;
         align-items: center;
@@ -35,6 +35,7 @@ export const Container = styled.div`
     .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        width: 100%;
     }
 
     .footer {
