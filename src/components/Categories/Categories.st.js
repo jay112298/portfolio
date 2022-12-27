@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Categories = styled.div`
+export const CategoriesDiv = styled.div`
     width: 100%;
     height: 115px;
     background-color: #1A1A1A;

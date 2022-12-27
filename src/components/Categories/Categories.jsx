@@ -1,14 +1,14 @@
 import React from 'react'
-import { Categories } from "./BlogCategories.st"
+import { CategoriesDiv } from "./Categories.st"
 
-const BlogCategories = (props) => {
+const Categories = (props) => {
   return (
-    <Categories>
+    <CategoriesDiv>
         <div className="category">{props.first}</div>
         <div className="category">{props.second}</div>
         <div className="category">{props.third}</div>
-    </Categories>
+    </CategoriesDiv>
   )
 }
 
-export default BlogCategories 
+export default Categories 

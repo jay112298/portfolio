@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from './Blog.st'
-import BlogCategories from '../../components/BlogCategories/BlogCategories'
+import Categories from '../../components/Categories/Categories'
 import BlogTile from '../../components/BlogTile/BlogTile'
 import Navbar from '../../components/Navbar/Navbar'
 
@@ -11,7 +11,7 @@ const Blog = () => {
               <section>
                   <div className="name">blogs</div>
               </section>
-              <BlogCategories first="All" second="Mechanical" third="Web Developement"/>
+              <Categories first="All" second="Mechanical" third="Web Developement"/>
               <div className="grid">
                 <BlogTile/>
                 <BlogTile/>
