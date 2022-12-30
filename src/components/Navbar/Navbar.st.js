@@ -58,5 +58,10 @@ export const Nav = styled.nav`
             }
         }
     }
+
+    .collapse {
+        display: none;
+    }
+
     
 `

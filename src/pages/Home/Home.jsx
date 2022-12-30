@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import { SiGmail } from 'react-icons/si'
 import { BsGithub, BsLinkedin, BsGearFill } from 'react-icons/bs';
 import jay from '../../assets/jay_transparent.png'
+import PhoneNav from "../../components/PhoneNav/PhoneNav.jsx";
 
 const Home = () => {
   const openMail = function () {
@@ -21,6 +22,7 @@ const Home = () => {
   return (
     <>
       <Navbar bg="rgba(0 , 0, 0, 0)" position="fixed"/>
+      <PhoneNav/>
       <Hero>
         <div className="left">
           <div className="hi">Hi, I am</div>
