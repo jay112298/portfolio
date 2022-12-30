@@ -28,6 +28,7 @@ export const Nav = styled.nav`
     left: 0;
     right: 0;
     z-index: 20;
+    transform: translateY(-500px);
 
     ul {
         margin: 0;
@@ -37,6 +38,7 @@ export const Nav = styled.nav`
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        transition: all 0.5s;
 
         li {
             height: 57px;
@@ -61,3 +63,5 @@ export const Nav = styled.nav`
 
 
 `
+
+// style={{transform:show?"translateY(00px)":"translateY(-500px)"}}
