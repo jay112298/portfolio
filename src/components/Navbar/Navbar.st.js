@@ -63,5 +63,7 @@ export const Nav = styled.nav`
         display: none;
     }
 
-    
+    @media (max-width: 768px) {
+        display: none;
+    }
 `
