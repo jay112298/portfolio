@@ -87,6 +87,7 @@ export const Hero = styled.section`
 `
 
 export const HeroPhone = styled.div`
+    @import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Work+Sans:wght@400;600;800&display=swap');
         
     background: url(${heroBg});
     background-size: cover;
@@ -94,5 +95,53 @@ export const HeroPhone = styled.div`
     width: 100%;
     height: calc(100vh - 57px);
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+    .name {
+        height: 41px;
+        font-family: 'Advent Pro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    
+    .intro {
+        height: 41px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .divider {
+        margin-top: 14px;
+        margin-bottom: 26px;
+        /* width: 120px; */
+        img{
+            width: 120px;
+        }
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        .icon {
+            color: #FFFFFF;
+        }
+    }
 `

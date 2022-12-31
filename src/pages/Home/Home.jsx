@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import { SiGmail } from 'react-icons/si'
 import { BsGithub, BsLinkedin, BsGearFill } from 'react-icons/bs';
 import jay from '../../assets/jay_transparent.png'
+import divider from '../../assets/hero-divider.png'
 import PhoneNav from "../../components/PhoneNav/PhoneNav.jsx";
 
 const Home = () => {
@@ -39,10 +40,14 @@ const Home = () => {
         </div>
       </Hero>
       <HeroPhone>
-          <div className="name"></div>
-          <div className="intro"></div>
-          <div className="divider"></div>
-          <div className="links"></div>
+          <div className="name">my name is Jitendra</div>
+          <div className="intro">I'm a developer</div>
+          <div className="divider"><img src={divider} alt="" /></div>
+          <div className="links">
+            <div className="icon"><SiGmail size={29}/></div>
+            <div className="icon"><BsGithub size={29}/></div>
+            <div className="icon"><BsLinkedin size={29}/></div>
+          </div>
       </HeroPhone>
     </>
   );
