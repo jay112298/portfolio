@@ -87,7 +87,6 @@ export const Hero = styled.section`
 `
 
 export const HeroPhone = styled.div`
-    @import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Work+Sans:wght@400;600;800&display=swap');
         
     background: url(${heroBg});
     background-size: cover;
@@ -144,4 +143,9 @@ export const HeroPhone = styled.div`
             color: #FFFFFF;
         }
     }
+
+    @media (min-width: 769px) {
+        display: none !important;
+    }
+
 `

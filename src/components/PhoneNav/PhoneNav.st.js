@@ -18,6 +18,10 @@ export const Navbar = styled.section`
 
     }
 
+    @media (min-width: 769px) {
+        display: none;
+    }
+
 `
 
 export const Nav = styled.nav`
