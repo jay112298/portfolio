@@ -63,5 +63,3 @@ export const Nav = styled.nav`
 
 
 `
-
-// style={{transform:show?"translateY(00px)":"translateY(-500px)"}}

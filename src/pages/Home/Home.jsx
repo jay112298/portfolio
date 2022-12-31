@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero } from "./Home.st.js";
+import { Hero, HeroPhone } from "./Home.st.js";
 import Navbar from "../../components/Navbar/Navbar";
 import { SiGmail } from 'react-icons/si'
 import { BsGithub, BsLinkedin, BsGearFill } from 'react-icons/bs';
@@ -38,8 +38,15 @@ const Home = () => {
           <img src={jay} />
         </div>
       </Hero>
+      <HeroPhone>
+          <div className="name"></div>
+          <div className="intro"></div>
+          <div className="divider"></div>
+          <div className="links"></div>
+      </HeroPhone>
     </>
   );
 };
 
+//Coaoa
 export default Home;

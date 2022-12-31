@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import heroBg from '../../assets/hero-bg.png'
 
 export const Hero = styled.section`
     background: #d7d7d7;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -74,5 +75,21 @@ export const Hero = styled.section`
             bottom: 80px;
         }
     }
+
+    .mobile-hero-container {
+
+    }
+
+    @media (max-width: 768px){
+        display: none;
+    }
+
+`
+
+export const HeroPhone = styled.div`
+        
+    background: url(${heroBg}) no-repeat;
+    width: 100%;
+    height: calc(100vh - 57px);
 
 `
