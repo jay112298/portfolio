@@ -88,8 +88,11 @@ export const Hero = styled.section`
 
 export const HeroPhone = styled.div`
         
-    background: url(${heroBg}) no-repeat;
+    background: url(${heroBg});
+    background-size: cover;
+    object-fit: cover;
     width: 100%;
     height: calc(100vh - 57px);
+    width: 100%;
 
 `
